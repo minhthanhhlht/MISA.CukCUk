@@ -1,0 +1,45 @@
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb

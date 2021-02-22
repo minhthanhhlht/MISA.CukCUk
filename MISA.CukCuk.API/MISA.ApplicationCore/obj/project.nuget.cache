@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EAZPsB0MHB0EcLDaQgot77zbe6mSyN8hdd6/1uk1yDkgyLo7VhKhryFdcxm3lMzcWl08OPzN5zEW844DFx0WtA==",
+  "success": true,
+  "projectFilePath": "E:\\LAM VIEC MISA\\GitHub\\WEB2021_01_DMTHANH\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

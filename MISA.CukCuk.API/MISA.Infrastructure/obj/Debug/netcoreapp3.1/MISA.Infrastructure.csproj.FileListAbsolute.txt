@@ -1,0 +1,60 @@
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.deps.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csprojAssemblyReference.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfo.cs
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CopyComplete
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.deps.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csprojAssemblyReference.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfo.cs
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CopyComplete
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.deps.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csprojAssemblyReference.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfo.cs
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CopyComplete
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.deps.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csprojAssemblyReference.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfoInputs.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfo.cs
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CopyComplete
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.deps.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.Infrastructure.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csprojAssemblyReference.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfoInputs.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.AssemblyInfo.cs
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.csproj.CopyComplete
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.Infrastructure\obj\Debug\netcoreapp3.1\MISA.Infrastructure.pdb

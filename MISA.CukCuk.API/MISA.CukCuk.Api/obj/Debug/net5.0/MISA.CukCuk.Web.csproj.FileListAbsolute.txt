@@ -1,0 +1,240 @@
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Dapper.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+C:\Users\nhson\Desktop\MISA\apiListVideo\Api_CukCuk_ListVideo\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Dapper.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+C:\Users\HoangSon\Desktop\MISA-Learn\api-misa\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Dapper.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+C:\Users\nhson\Desktop\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.Development.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Dapper.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Google.Protobuf.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MySql.Data.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Zstandard.Net.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Renci.SshNet.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\LAM VIEC MISA\WORK\WEB2020-12_NHSON\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.Development.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\appsettings.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.exe
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.deps.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.runtimeconfig.dev.json
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Dapper.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Google.Protobuf.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MySql.Data.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Zstandard.Net.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Renci.SshNet.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\bin\Debug\net5.0\MISA.Infrastructure.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csprojAssemblyReference.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.GeneratedMSBuildEditorConfig.editorconfig
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfoInputs.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.AssemblyInfo.cs
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CoreCompileInputs.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.Manifest.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\staticwebassets\MISA.CukCuk.Web.StaticWebAssets.xml
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\scopedcss\bundle\MISA.CukCuk.Web.styles.css
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.RazorTargetAssemblyInfo.cache
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.csproj.CopyComplete
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\ref\MISA.CukCuk.Web.dll
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.pdb
+E:\LAM VIEC MISA\GitHub\WEB2021_01_DMTHANH\MISA.CukCuk.Api.ListVideo\obj\Debug\net5.0\MISA.CukCuk.Web.genruntimeconfig.cache
