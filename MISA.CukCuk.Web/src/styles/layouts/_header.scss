@@ -1,0 +1,190 @@
+// Header
+.header {
+    height: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: #0973b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// phần header trái
+.header__left {
+    align-items: center;
+    height: 100%;
+    display: flex;
+    width: 230px;
+    border-bottom: 1px solid #016087;
+}
+
+// header trái icon
+.header__left__icon {
+    cursor: pointer;
+    margin-left: 12px;
+    margin-right: 10px;
+    width: 24px;
+    margin-top: 4px;
+    height: 24px;
+    background-image: url('assets/images/icon-left-header.png');
+    background-repeat: no-repeat;
+}
+
+// header trái text
+.header__left__text {
+    cursor: pointer;
+    width: 184px;
+    height: 30px;
+    background-image: url('assets/images/logo-text.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+
+// header giua 
+.header__middle {
+    width: 200px;
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+// header right 
+.header__right {
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+    height: 100%;
+}
+
+// header right notice
+.notice {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.notice .number-notification {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: #fff;
+    padding: 0px 4px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #ff5252
+}
+
+
+/*Header right support*/
+
+.support {
+    position: relative;
+    align-self: center;
+    width: 65px;
+    height: 100%;
+    background-image: url('assets/images/ic_support.svg');
+    background-repeat: no-repeat;
+}
+
+.support:hover {
+    background-color: #3386c2;
+    cursor: pointer;
+}
+
+.support:hover .label-misasupport {
+    display: block !important;
+}
+
+.support .label-misasupport {
+    position: absolute;
+    display: none;
+    white-space: nowrap;
+    right: 0;
+    background: #656565;
+    left: auto !important;
+    top: 65px !important;
+    z-index: 1000;
+    color: #fff;
+    padding: 6px 12px !important;
+    border-radius: 15px;
+}
+
+.support .label-misasupport::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 25px;
+    z-index: 10000;
+    border-width: 10px 8px 10px 8px;
+    border-style: solid;
+    border-color: transparent transparent #656565 transparent
+}
+
+// header right user
+.user {
+    height: 28px;
+    width: 180px;
+    margin-left: 24px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__right__user:hover .user__action {
+    display: block;
+}
+
+.user__avatar {
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url('assets/images/EmployeeImage.png');
+    background-repeat: no-repeat;
+    background-position: 3px 2px;
+    margin-right: 4px;
+}
+
+.user__icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    background-image: url('assets/images/button/default-small-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.user__action {
+    position: absolute;
+    top: 100%;
+    width: calc(100% - 32px);
+    left: 32px;
+    z-index: 999;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.user__action-item {
+    height: 44px;
+    line-height: 40px;
+    padding-left: 8px;
+}
+
+.user__action-item:hover {
+    background-color: #b0daf0;
+}
+
+// restaurant list
+.combobox__restaurant {
+    width: 100%;
+}

@@ -1,0 +1,149 @@
+.auto {
+    width: 100%;
+    min-height: calc(100vh - 129px);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+
+.grid__overflow {
+    width: 100%;
+    max-height: calc(100vh - 155px);
+    overflow: auto;
+    overflow-y: hidden;
+    height: 600px;
+}
+
+.grid__header {
+    min-width: 900px;
+    height: 56px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-right-color: transparent;
+}
+
+.grid__header__item {
+    flex: 1;
+    height: 100%;
+    width: 200px;
+    background: #fff;
+    border-right: 1px solid #ccc;
+}
+
+.grid__header-title {
+    background-color: #ededed;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.grid__header-filter {
+    height: 28px;
+    width: 100%;
+    display: flex;
+}
+
+.grid__header-split {
+    height: 24px;
+    width: 24px;
+    margin-left: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+}
+
+.grid__header-textbox {
+    height: 24px;
+    width: 100%;
+    margin-right: 4px;
+    padding-left: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.grid__header-textbox:focus {
+    border-color: #0072bc;
+}
+
+.grid__header__track {
+    width: 18px;
+}
+
+.grid__body {
+    width: 100%;
+}
+
+.grid__body tbody {
+    min-width: 900px;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    height: 500px !important;
+}
+
+.grid__body tbody tr {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.grid__body tbody tr:hover {
+    background-color: #d7e9f4;
+}
+
+.grid__body tbody tr:first-child {
+    border-top-color: transparent;
+}
+
+.grid__body tbody tr:last-child {
+    border-bottom-color: #ccc;
+}
+
+.grid__body tbody tr td {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.flex-2 {
+    flex: 2 !important;
+}
+
+// .flex-3 {
+//     flex: 3 !important;
+// }
+
+.flex-4 {
+    flex: 4 !important;
+}
+
+.flex-5 {
+    flex: 5 !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 24px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fafafa;
+    // background-color: #c1ddf1;
+}
+
+td {
+    padding-left: 12px;
+}

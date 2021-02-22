@@ -1,0 +1,348 @@
+.form-dialog {
+    z-index: 999;
+}
+
+.group-general-info {
+    display: flex;
+}
+
+.form-dialog {
+    position: absolute;
+}
+
+.dialog-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: .4;
+}
+
+.dialog {
+    position: fixed;
+    width: 920px;
+    min-height: 600px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 5px solid #0072bc;
+}
+
+.dialog .dialog-titlebar {
+    color: #ffffff;
+    width: 100%;
+    background-color: #0072bc;
+    height: 22px;
+    /* border-top-left-radius: 4px;
+        border-top-right-radius: 4px;*/
+}
+
+.dialog .dialog-titlebar .title {
+    float: left;
+    line-height: 17px;
+    padding-left: 4px;
+}
+
+.dialog .dialog-titlebar .btn-close {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    float: right;
+    line-height: 13px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #0072bc;
+    cursor: pointer;
+}
+
+.dialog .dialog-body {
+    padding: 8px;
+}
+
+.dialog-body label {
+    display: inline-block;
+    width: 135px;
+}
+.dialog-body .label-row-1 {
+    white-space: nowrap;
+}
+
+.dialog-body .row {
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    margin-right: 12px;
+}
+
+.dialog-body .row input {
+    // width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    
+}
+.label-col-3{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.row-col-1{
+    display: flex;
+}
+
+.dialog-body .row label {
+    min-width: 148px;
+}
+
+.dialog-body .row .input--short {
+    width: 150px !important;
+}
+
+.dialog-body .row .input--middle {
+    width: 246px !important;
+}
+
+.dialog-footer {
+    position: relative;
+    display: flex;
+    min-height: 30px;
+    margin-top: 12px;
+}
+
+.dialog-footer .footer-right {
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 0;
+}
+
+.dialog-footer .footer-left {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    left: 0;
+}
+
+// phaanf ben trai
+.group-left {
+    flex: 1;
+}
+
+// phan ben phai
+.group-right {
+    margin-left: 8px;
+    text-align: center;
+    width: 140px;
+}
+
+.title-group {
+    height: 28px;
+    padding-left: 8px;    
+    width: 110px;
+    line-height: 32px;
+    background-color: #fff;
+    border-bottom: none;
+    border-left: 1px solid #d3d3d3!important;
+    border-right: 1px solid #d3d3d3!important;
+    border-top: 2px solid #0072bc!important;
+    color: #0072bc!important;
+    margin-left: 1px!important;
+    cursor: pointer;
+}
+.toolbar-group{
+    background-color: #f5f5f5;
+}
+.dialog .label-col-2{
+    margin-left: 8px;
+}
+.dialog .label-col-4 {
+    flex: 1;
+    font-family: Tahoma_Regular !important;
+    font-size: 13px !important;
+    margin-left: 8px;
+    cursor: default;
+}
+// .flex-1{
+//     flex: 1;
+//     margin-left: -3px;
+//     width: 150px !important;
+// }
+.flex-2{
+    margin-left: 0px !important;
+}
+.flex-3{
+    text-align: center !important;
+}
+
+// avatar box
+.avatar-box {
+    width: 134px;
+    height: 148px;
+    background-image: url('assets/images/avatardefault.png');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.tip-upload {
+    margin-top: 8px;
+}
+
+.ct-btn-avatar {
+    width: 32px;
+    height: 24px;
+    border: none;
+    margin-bottom: 4px;
+    outline: none;
+}
+
+.btn-select-avatar {
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.btn-select-avatar:hover {
+    border-color: #0072bc;
+    background-color: #e9f1eb;
+}
+
+.ct-btn-avatar+.ct-btn-avatar {
+    margin-left: 8px;
+}
+
+.btn-remove-avatar {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+}
+
+// label required 
+.label-required {
+    color: #f00 !important;
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.flex-container+.flex-container {
+    margin-left: auto;
+}
+
+.item-1 {
+    width: 246px !important;
+    outline: none;
+    border: 1px solid #ccc;
+    height: 100%;
+}
+
+.item-2 {
+    width: 160px !important;
+    margin-left: auto;
+    height: 100%;
+}
+
+.select-rule {
+    width: 16px !important;
+    height: 16px !important;
+    margin-right: 16px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+// Start dialog
+
+  
+  
+  
+  .dialog-toolbar {
+    margin: 0px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    width: auto;
+  }
+  .dialog .dialog-titlebar {
+    color: #ffffff;
+    width: 100%;
+    background-color: #0072bc;
+    height: 22px;
+  }
+  
+  .dialog .dialog-titlebar .title {
+    float: left;
+    line-height: 17px;
+    padding-left: 4px;
+  }
+  
+  .dialog .dialog-titlebar .btn-close {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    float: right;
+    line-height: 13px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #0072bc;
+    cursor: pointer;
+  }
+  
+  .dialog .dialog-body {
+    padding: 8px;
+  }
+  
+  .dialog-body label {
+    display: inline-block;
+    width: 135px;
+    text-align: left;
+  }
+  .dialog-body .row {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dialog-footer {
+    position: relative;
+    display: flex;
+    min-height: 30px;
+    margin-top: 12px;
+  }
+  
+  .dialog-footer .footer-right {
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .dialog-footer .footer-left {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    left: 0;
+  }
+  .misa-checkbox {
+    display: flex;
+  }
+ 
+  /*Định dạng cho tab bar*/
+  

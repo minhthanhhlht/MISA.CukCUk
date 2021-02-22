@@ -1,0 +1,80 @@
+/* css dùng chung cho các icons */
+
+.icon {
+    color: #157fcc;
+    padding-right: 8px;
+}
+
+.icon-edit:before {
+    content: '';
+}
+
+.icon-logout:before {
+    content: '';
+}
+
+.icon-globe:before {
+    content: '';
+}
+
+.m-icon--add {
+    background-position: 0 -2648px;
+}
+
+.m-icon--duplicate {
+    background-position: 0 -1888px;
+}
+
+.m-icon--view {
+    background-position: 0 -272px;
+}
+
+.m-icon--update {
+    background-image: url('assets/images/Edit16.png');
+}
+
+.m-icon--delete {
+    background-position: 0 -2680px;
+}
+
+.m-icon--inner {
+    background-position: 0 -2584px;
+}
+
+.m-icon--help {
+    background-position: 0 -1600px;
+}
+
+.m-icon--add {
+    background-position: -1px -2648px !important;
+}
+.m-icon--save {
+    background-image: url('assets/images/Save16.png');
+}
+.m-icon--close {
+    background-position: 0 -2160px !important;
+}
+
+.icon__first-page {
+    background-image: url('assets/images/grid/page-first.png');
+}
+
+.icon__prev-page {
+    background-image: url('assets/images/grid/page-prev.png');
+}
+
+.icon__next-page {
+    background-image: url('assets/images/grid/page-next.png');
+}
+
+.icon__last-page {
+    background-image: url('assets/images/grid/page-last.png');
+}
+
+.icon__refresh {
+    background-image: url('assets/images/grid/refresh.png');
+}
+
+.icon--cancel {
+    background-image: url('assets/images/grid/refresh.png');
+}

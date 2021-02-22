@@ -1,0 +1,104 @@
+.employee-list {
+  padding: 0 12px;
+}
+
+.employee-list__header {
+  display: flex;
+  height: 44px;
+  align-items: center;
+}
+
+.header__breadcrumb {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb__title {
+  color: #000;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: normal;
+  position: relative;
+  margin-right: 24px;
+}
+
+.breadcrumb__title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 7px solid #0072bc;
+  right: -16px;
+  top: 12px;
+}
+
+.breadcrumb__item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #0072bc;
+  padding: 0 5px 0 0;
+}
+
+.dialog input[type="text"],
+.dialog input[type="tel"],
+.dialog input[type="email"],
+.dialog textarea {
+  width: calc(100% - 135px);
+}
+.header__filter {
+  align-items: center;
+  display: flex;
+}
+
+.filter__title {
+  margin: 0 24px;
+}
+
+.quick-filter-combobox {
+  border: 1px solid #c1c1c1;
+  width: 137px;
+  height: 29px;
+  background-color: #fff;
+  color: #000;
+}
+
+.quick-filter-combobox:focus {
+  border-color: #0072bc;
+}
+
+.btn-return-to-original-settings {
+  margin-left: auto;
+}
+
+.btn-feedback {
+  height: 28px;
+  width: 100px;
+  background-color: #fcfcfc;
+  border: 1px solid #ccc;
+  margin-left: 12px;
+}
+
+.btn-feedback:hover {
+  border-color: #0072bc;
+  background-color: #e9f1eb;
+}
+
+.icon__feedback {
+  background-image: url("assets/images/viewEmail.png");
+}
+
+// body
+.toolbar-box-item {
+  margin: 4px 4px 0 8px;
+  height: 14px;
+  top: 4px;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  border-left-color: #e1e1e1;
+  border-right-color: #fff;
+  border-left-color: #ccc !important;
+}

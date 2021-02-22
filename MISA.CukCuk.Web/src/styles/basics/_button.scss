@@ -1,0 +1,187 @@
+/* Các button dùng chung */
+
+.m-btn {
+    outline: none;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.m-btn:focus {
+    border-color: #0072bc;
+    background-color: #e9f1eb;
+}
+
+.m-btn:hover {
+    border-color: #0072bc;
+    background-color: #e9f1eb;
+}
+
+.m-btn__icon {
+    outline: none;
+    display: flex;
+    padding: 2px 4px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    border: 1px solid transparent;
+}
+
+.m-btn__icon:focus {
+    border-color: #0072bc;
+    background-color: #fff;
+}
+
+.m-btn__icon:hover {
+    border-color: #0072bc;
+    background-color: #fff;
+}
+
+.m-icon {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+    background-image: url('assets/images/IconSprite.png');
+}
+
+// Start button
+button {
+    cursor: pointer;
+  }
+  button:focus {
+    outline: none;
+    border: 1px solid #1e32d0;
+  }
+  button[disabled] {
+    pointer-events: none;
+  }
+  button[disabled] .btn-icon {
+    opacity: 0.5;
+  }
+  
+  button .btn-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url("./assets/images/IconSprite.png");
+  }
+  
+  button .btn-icon.btn-icon-add {    
+      background-position: -1px -2648px !important;
+  }
+  
+  button .btn-icon.btn-icon-save {
+    background-image: url("./assets/images/Save16.png");
+    background-repeat: no-repeat;
+  }
+  
+  button .btn-icon.btn-icon-edit {
+      background-image: url("./assets/images/Edit16.png");
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 16px;
+  }
+  
+  button .btn-icon.btn-icon-delete {
+    background-position: -2px -2681px;
+  }
+  
+  button .btn-icon.btn-icon-refresh {
+    background-position: 0 -2586px;
+  }
+  
+  button .btn-text {
+    margin-left: 4px;
+  }
+  
+  .ct-btn {
+    display: flex;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: buttonface;
+    border-image: initial;
+    justify-content: center;
+    padding: 4px;
+    min-width: 35px;
+  }
+  
+  .ct-btn:hover,
+  .ct-btn:focus {
+    border-color: #0071c1;
+    background-image: -webkit-linear-gradient(top, #eff0ec, #e1f2e9);
+    outline: none;
+  }
+  
+  .ct-btn .btn-icon {
+    align-self: center;
+  }
+  
+  .ct-btn .btn-icon-16 {
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  .btn-icon-save {
+  //   background-image: url("./assets/icon/Save16.png");
+  //   background-image: url("./assets/icon/IconSprite.png");
+  //   background-position: 0 -2648px !important;
+  }
+  .btn-icon-duplicate{
+      background-position: 0 -2096px!important;
+  }
+  .btn-icon-view{
+      background-position: 0 -272px;
+  }
+  .btn-icon-saveadd {
+    background-image: url("./assets/images/SaveAdd16.png");
+  }
+  
+  .btn-icon-close {
+      background-image: url("./assets/images/IconSprite.png");
+      background-position: 0 -2160px !important;
+  }
+  
+  .btn-icon-help {
+    background-image: url("./assets/images/IconSprite.png");
+    background-position: 0 -1600px !important;
+    
+  }
+  .btn-content{
+      border: 1px solid #999 !important;     
+      background-color: #fff;
+  }
+  .btn-repeat-setting {
+      background-color: #fff;
+      left: 1184px;
+      height: 28px;
+      margin-right: 8px;
+  }
+  .btn-feedback{
+      padding-top: 4px;    
+      display: flex;
+      margin: 0px;
+      width: 100px;
+      height: 28px;
+      right: auto;
+      left: 1362px;
+      top: 14px;
+  }
+  
+  .btn-align-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  

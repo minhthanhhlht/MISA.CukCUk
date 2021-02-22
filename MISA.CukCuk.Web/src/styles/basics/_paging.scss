@@ -1,0 +1,61 @@
+.grid__paging {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    height: 26px;
+    align-items: center;
+}
+
+.paging__btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.paging__icon {
+    width: 16px;
+    height: 16px;
+}
+
+.paging__btn+.paging__btn {
+    margin: 0 16px;
+}
+
+.cbo-slect-number-per-page {
+    border: 1px solid #c1c1c1;
+    width: 44px;
+    height: 24px;
+    background-color: #fff;
+    color: #000;
+}
+
+.cbo-slect-number-per-page:focus {
+    border-color: #0072bc;
+}
+
+.select__page {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.txt-select__page {
+    width: 44px;
+    outline: none;
+    height: 24px;
+    border: 1px solid #c1c1c1;
+    margin: 0 8px;
+    padding-left: 8px;
+}
+
+.txt-select__page:focus {
+    border-color: #0072bc;
+}
+
+.result-display {
+    margin-left: auto;
+    margin-right: 16px;
+}

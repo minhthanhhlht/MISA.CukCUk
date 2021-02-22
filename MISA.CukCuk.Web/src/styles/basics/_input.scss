@@ -1,0 +1,48 @@
+// combobox dùng chung
+.m-combobox {
+    outline: none;
+    display: flex;
+    color: #fff;
+    height: 36px;
+    padding-left: 4px;
+    border: none;
+    background-color: #005082;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.input-default {
+    padding: 0px 4px;
+    border-radius: 0;
+    height: 24px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.dialog .option-flex-auto {
+    width: 225px;
+}
+.input-default-1 {
+    width: calc(100% - 580px) !important;
+}
+.input-default:focus {
+    border-color: #0072bc !important;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+.input-default:focus {
+    border: 1px solid #0071c1;
+    outline-offset: unset !important;
+    outline: none !important;
+  }

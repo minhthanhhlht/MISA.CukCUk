@@ -1,0 +1,87 @@
+@import "./layouts/header";
+@import "./layouts/navbar";
+@import "./layouts/content";
+@import "./basics/input";
+@import "./basics/button";
+@import "./basics/icon";
+@import "./basics/toolbar";
+@import "./basics/grid";
+@import "./basics/paging";
+@import "./basics/dialog";
+@import "./pages/employee";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: TahomaCustom !important
+}
+
+html {
+    overflow-y: hidden;
+}
+
+body {
+    box-sizing: inherit;
+    font-size: 13px !important;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+    // z-index: 1231232123421
+  }
+  
+  ::-webkit-scrollbar-track {
+    width: 6px;
+    background-color: #bbb;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 8px;
+  }
+@font-face {
+    font-family: TahomaCustom;
+    src: url('assets/fonts/Tahoma_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('assets/fonts/fontello.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ml-12px {
+    margin-left: 24px;
+}
+
+.mr-24px {
+    margin-right: 24px;
+}
+
+.notValid {
+    border-color: #f00 !important;
+}
