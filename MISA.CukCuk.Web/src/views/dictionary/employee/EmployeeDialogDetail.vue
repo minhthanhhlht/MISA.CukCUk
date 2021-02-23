@@ -336,13 +336,13 @@ export default {
     this.rules = rules.data;
 
     /**
-     * Sử lý validate dữ liệu khi blur input
+     * Xử lý validate khi blur input
      */
 
     var inputs = document.querySelectorAll(".input-default");
 
     for (var i in inputs) {
-      if (i == 0 || i == 1 || i == 2 || i == 3 || i == 6 || i == 9) {
+      if (i == 0 || i == 3 ) {
         inputs[i].onblur = function(e) {
           if (e.target.value.trim() == "") {
             e.target.classList.add("notValid");
