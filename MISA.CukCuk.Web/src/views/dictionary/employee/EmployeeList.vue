@@ -187,13 +187,14 @@
 </template>
 
 <script>
-
+import EmployeeDialogDetail from "@/views/dictionary/employee/EmployeeDialogDetail"
 import DialogConfirm from "@/components/dialogs/DialogConfirm";
 
 import axios from "axios";
 export default {
     name:"EmployeeList",
   components: {    
+    EmployeeDialogDetail,
     DialogConfirm,
   },
   data() {
