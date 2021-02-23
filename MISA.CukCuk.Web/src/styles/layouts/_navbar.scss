@@ -1,4 +1,4 @@
-// phần menu bên trái
+
 .navbar {
     position: absolute;
     top: 55px;
@@ -8,7 +8,7 @@
     height: calc(100vh - 55px);
 }
 
-// danh sách menu
+
 .navbar__list {
     list-style: none;
 }
@@ -31,12 +31,11 @@
     padding-left: 12px;
 }
 
-// đổi màu khi hover vào link
 .navbar__link:hover {
     background-color: #eb7728;
 }
 
-// icon menu item
+
 .navbar__item-icon {
     display: block;
     background-repeat: no-repeat;
@@ -46,57 +45,57 @@
     margin-right: 12px;
 }
 
-// icon danh mục
+
 .navbar__item-icon--dashboard {
     background-position: 0 0;
 }
 
-// icon báo cáo
+
 .navbar__item-icon--report {
     background-position: 0 -192px;
 }
 
-// icon khuyến mại
+
 .navbar__item-icon--discount {
     background-position: 0 -117px;
 }
 
-// icon danh mục
+
 .navbar__item-icon--dictionary {
     background-position: 0 -156px;
 }
 
-// icon thiết lập hệ thống
+
 .navbar__item-icon--setting {
     background-position: 0 -232px;
 }
 
-// icon ứng dụng
+
 .navbar__item-icon--application {
     background-image: url('assets/images/ic_menu_list_connect_application.svg');
 }
 
-// icon bán hàng online
+
 .navbar__item-icon--order-online {
     background-image: url('assets/images/ic_Web.svg');
 }
 
-//icon 5food
+
 .navbar__item-icon--5food {
     background-image: url('assets/images/5food.png');
 }
 
-//icon trợ giúp
+
 .navbar__item-icon--help {
     background-image: url('assets/images/iconHelp.png');
 }
 
-//icon thuê bao
+
 .navbar__item-icon--subscriber {
     background-image: url('assets/images/icon-subscriber.png');
 }
 
-// panel hiện ra khi click vào item danh mục
+
 .panel__dictionary {
     position: absolute;
     top: -127px;
@@ -112,7 +111,7 @@
     background-color: #49a2e7;
 }
 
-// chỉnh hiển thị khi click vào item danh mục
+
 #navbar__dictionary.show-panel .panel__dictionary {
     display: block;
 }
@@ -130,7 +129,7 @@
     text-transform: uppercase;
 }
 
-// phần header danh mục
+
 .panel__dictionary-header {
     padding-left: 40px;
     height: 40px;
@@ -139,29 +138,29 @@
     background-repeat: no-repeat;
 }
 
-// icon phần header thực đơn
+
 .panel__dictionary-menu-header {
     background-image: url('assets/images/menu/InventoryItem.png');
 }
 
-// icon phần header nguyên vật liệu
+
 .panel__dictionary-material-header {
     background-image: url('assets/images/menu/InventoryItemMaterial.png');
 }
 
-// một item của danh mục
+
 .panel__dictionary-item {
     list-style: none;
     margin-left: 32px;
     position: relative;
 }
 
-// xet node tree cuối thanh 1 heigt còn 50%
+
 .panel__dictionary-content .panel__dictionary-item:last-child .line-1 {
     height: 50%;
 }
 
-// dòng kẻ tree node
+
 .line {
     position: absolute;
     width: 32px;
@@ -170,7 +169,7 @@
     left: -32px;
 }
 
-// dòng kẻ dọc
+
 .line-1 {
     position: absolute;
     width: 1px;
@@ -179,7 +178,7 @@
     background-color: #dadada;
 }
 
-// dòng kẻ ngang
+
 .line-2 {
     position: absolute;
     width: 50%;
@@ -189,27 +188,4 @@
     background-color: #dadada;
 }
 
-// link danh mục con
-.panel__dictionary-link {
-    text-decoration: none;
-    font-weight: normal;
-    text-transform: none;
-    border: 1px solid transparent;
-    padding: 0 10px 0 4px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    color: #212121;
-    font-size: 13px;
-    display: block;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
 
-// link danh mục con khi trỏ chuột
-.panel__dictionary-link:hover {
-    border-color: #43a3d5;
-    background-color: #e6f3fb;
-}

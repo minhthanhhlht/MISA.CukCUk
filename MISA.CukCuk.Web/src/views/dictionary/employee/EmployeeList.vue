@@ -23,11 +23,7 @@
           @change="filterEmployee($event)"
         >
           <option value="">--Tất cả--</option>
-          <option
-            v-for="workStatus in workStatuses"
-            :key="workStatus.WorkStatusId"
-            :value="workStatus.WorkStatusId"
-            >{{ workStatus.WorkStatusName }}</option
+          <option></option>
           >
         </select>
       </div>
@@ -205,8 +201,7 @@ export default {
       employee: {
         Email: "",
       },
-      employeeId: "",
-      workStatuses: [],
+      employeeId: "",      
       newCode: "",
     };
   },
@@ -217,7 +212,7 @@ export default {
       this.isHideParent = value;
     },
     /**
-     * Hàm mở dialog khi click button add
+     * Event mở dialog khi click button add
      *
      */
     btnAddClick() {
@@ -259,7 +254,7 @@ export default {
       this.focusInput();
     },
     /**
-     * Hàm xử lý khi row table click
+     * Xử lý khi click chọn row
      *
      */
     tableRowClick(event) {
@@ -276,7 +271,7 @@ export default {
       element.classList.add("row-selected");
     },
     /**
-     * Định dạng lại giới tính 0 nam, 1 nữ, 2 khác
+     *format lại giới tính 0 nam, 1 nữ, 2 khác
      * @param {int} gender
      *
      */
@@ -287,7 +282,7 @@ export default {
       return genderName;
     },
     /**
-     *Định dạng lại ngày sinh
+     *format ngày sinh
      * @param {string} d
      *
      */
@@ -302,7 +297,7 @@ export default {
       return `${day}/${month}/${year}`;
     },
 
-    //  Hàm lấy dữ liệu
+    //  Lấy dữ liệu
     async created() {
       const response = await axios.get(
         "http://api.manhnv.net/api/employees"

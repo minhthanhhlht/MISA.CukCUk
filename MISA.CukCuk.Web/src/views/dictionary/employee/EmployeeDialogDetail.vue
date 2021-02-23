@@ -10,19 +10,24 @@
       </div>
       <!-- Start Toolbar -->
       <div class="toolbar">
-        <button id="btnSave" class="m-btn__icon"  @click="saveEmployee" tabindex="12"        >
+        <button
+          id="btnSave"
+          class="m-btn__icon"
+          @click="saveEmployee"
+          tabindex="12"
+        >
           <div class="m-icon m-icon--add"></div>
           <span>Thêm</span>
-        </button>       
-         <button class="m-btn__icon" @click="saveEmployee">
+        </button>
+        <button class="m-btn__icon" @click="saveEmployee">
           <div class="m-icon m-icon--update"></div>
           <span>Sửa</span>
-        </button> 
+        </button>
         <button class="m-btn__icon">
           <div class="m-icon m-icon--save"></div>
           <span>Cất</span>
         </button>
-       
+
         <button class="m-btn__icon" @click="deleteEmployee">
           <div class="m-icon m-icon--delete"></div>
           <span>Xóa</span>
@@ -36,7 +41,7 @@
           <div class="m-icon m-icon--help"></div>
           <span>Giúp</span>
         </button>
-         <button class="m-btn__icon">
+        <button class="m-btn__icon">
           <div class="m-icon m-icon--close"></div>
           <span>Đóng</span>
         </button>
@@ -80,10 +85,7 @@
             </div>
             <div class="row">
               <label class="label-col-2 flex-2">Giới tính</label>
-              <select
-                class="option-flex-auto input-default"
-                
-              >
+              <select class="option-flex-auto input-default">
                 <option>Nam</option>
                 <option>Nữ</option>
               </select>
@@ -92,7 +94,7 @@
                 id="dtBirthday"
                 type="date"
                 class="input-default"
-                style="margin-left: -3px;width: 224px;"
+                style="margin-left: -3px; width: 224px"
               />
             </div>
 
@@ -104,7 +106,6 @@
                 id="txtIdentityNumber"
                 type="text"
                 class="input-default flex-1"
-                
               />
               <label class="label-col-2 flex-3">Ngày cấp</label>
               <input id="dtBirthday" type="date" class="input-default flex-1" />
@@ -129,7 +130,7 @@
           </div>
         </div>
 
-       <div class="row" style="margin-left: -3px">
+        <div class="row" style="margin-left: -3px">
           <label>Nơi cấp CMND</label>
           <input id="dtBirthday" type="text" class="input-default flex-1" />
         </div>
@@ -153,48 +154,36 @@
               <option>Đang thử việc</option>
             </select>
             <div class="row-col-1">
-            <input type="checkbox" />
-            <label class="label-col-3 label-row-1"
-              >Cho phép làm việc với phần mềm CUKCUK</label
-            >
+              <input type="checkbox" />
+              <label class="label-col-3 label-row-1"
+                >Cho phép làm việc với phần mềm CUKCUK</label
+              >
             </div>
           </div>
         </div>
-
-
-        
       </div>
+      <DialogConfirm
+        ref="dialogConfirm"
+        :employeeId="employeeId"
+        :isHide="isHideDialogConfirm"
+        :message="message"
+        @closeDialogConfirm="isHideDialogConfirm = $event"
+        @loadData="loadData"
+        @closeDialog="closeDialog"
+      />
 
       <!-- End Body -->
     </div>
-    <DialogAlert
-      ref="dialogAlert"
-      :isHide="isHideDialogAlert"
-      :text="text"
-      @closeDialog="isHideDialogAlert = $event"
-    />
-    <DialogConfirm
-      ref="dialogConfirm"
-      :employeeId="employeeId"
-      :isHide="isHideDialogConfirm"
-      :message="message"
-      @closeDialogConfirm="isHideDialogConfirm = $event"
-      @loadData="loadData"
-      @closeDialog="closeDialog"
-    />
   </div>
 </template>
 
 <script>
-// import validator from 'validator'
 import axios from "axios";
-import DialogAlert from "@/components/dialogs/DialogAlert";
 import DialogConfirm from "@/components/dialogs/DialogConfirm";
 
 export default {
   name: "EmployeeDialogDetail",
   components: {
-    DialogAlert,
     DialogConfirm,
   },
   props: {
@@ -237,10 +226,10 @@ export default {
       this.$emit("closePopup", true);
       this.removeValidate();
     },
-  
+
     /**
-     * Hàm thêm mới nhân viên m
-     * 
+     * hêm mới nhân viên 
+     *
      */
     async saveEmployee() {
       /**
@@ -249,20 +238,21 @@ export default {
 
       var inputs = document.querySelectorAll(".input-default");
       for (var i in inputs) {
-        if (i == 0|| i == 3) {
+        if (i == 0 || i == 3) {
           if (inputs[i].value.trim() == "") {
             inputs[i].classList.add("notValid");
           }
         }
       }
       /**
-       * Hàm cất dữ liệu khi thêm mới và khi cập nhật
-       * 
+       * Cất dữ liệu khi thêm mới và khi cập nhật
+       *
        */
       var employeeId = this.employee.EmployeeId;
-      // Nếu không có id thì thêm mới
+      // Nếu không có id thì thêm mới id
       if (!employeeId) {
-        var employeeCodeValue = document.getElementById("txtEmployeeCode").value;
+        var employeeCodeValue = document.getElementById("txtEmployeeCode")
+          .value;
         this.employee["EmployeeCode"] = employeeCodeValue;
         try {
           await axios.post(
@@ -300,9 +290,9 @@ export default {
       }
     },
 
-      /**
+    /**
      * Xóa nhân viên
-     * 
+     *
      */
     async deleteEmployee() {
       var employeeId = this.employee.EmployeeId;
@@ -335,9 +325,7 @@ export default {
     };
   },
   async mounted() {
-    var workStatuses = await axios.get(
-      ""
-    );
+    var workStatuses = await axios.get("");
     this.workStatuses = workStatuses.data;
     var rules = await axios.get("http://localhost:60211/api/v1/rules");
     this.rules = rules.data;
@@ -350,7 +338,7 @@ export default {
 
     for (var i in inputs) {
       if (i == 0 || i == 1 || i == 2 || i == 3 || i == 6 || i == 9) {
-        inputs[i].onblur = function(e) {
+        inputs[i].onblur = function (e) {
           if (e.target.value.trim() == "") {
             e.target.classList.add("notValid");
           } else {
