@@ -86,7 +86,7 @@
               <label>Họ và tên <span class="label-required">(*)</span></label>
               <input type="text" class="input-default" 
               v-model="employee.fullName"/>
-              <p v-if="$v.name.$error">Vui lòng không để trống ô này</p>
+              <!-- <p v-if="$v.name.$error">Vui lòng không để trống trường này</p> -->
             </div>
             <div class="row">
               <label class="label-col-2 flex-2">Giới tính</label>
@@ -218,6 +218,7 @@ export default {
         workStatus: "",
         
       },
+      
       workStatuses: [],   
       employeeId: '',   
       message: "",
@@ -229,6 +230,7 @@ export default {
 
   },
   props: {
+    employees:{},
     isHide: {
       type: Boolean,
       default: true,
@@ -236,6 +238,8 @@ export default {
     newCode: {
       type: String,
     },
+    
+    
     // data: {
     //   type: Object,
     //   default: () => {
@@ -393,9 +397,7 @@ export default {
     }
   },
   computed: {
-    // employee() {
-    //   return this.data;
-    // },
+    
   },
 };
 </script>

@@ -129,9 +129,10 @@
                 v-for="employee in employees"
                 :key="employee.employeeId"
                 @click="tableRowClick"
-                @dblclick="rowDoubleClick(employee)"
+                @dblclick="rowDoubleClick(employee.employeeId)"
                 :employee-id="employee.employeeId"
                 :employee-code="employee.employeeCode"
+                
               >
                 <td class="row-1">{{ employee.employeeCode }}</td>
                 <td class="flex-2 row-2">{{ employee.fullName }}</td>
@@ -199,42 +200,40 @@ export default {
   },
   data() {
     return {
-      employee: {
-        
-      },
+      employee: {},
+      selectedEmployee:{},
       isHideParent: true,
       isHideDialogConfirm: true,
       message: "",
-      employees: [],
+      employees: {},
       employeeId: "",
       workStatuses: [],
       newCode: "",
     };
   },
   methods: {
-    // Lấy dữ liệu
-    async mounted() {
-      const response = await axios.get(
-        "http://localhost:60211/api/v1/Employees"
-      );
-      console.log(response.data[0]);
-      this.employees = response.data;
-    },
 
+    // Hàm lấy dữ liệu
+    async loadData(){     
+      try {
+        const response = await axios.get(
+          "http://localhost:60211/api/v1/Employees"
+        );
+        this.employees = response.data;
+        console.log(response.data[0]);
+      alert("Nạp dữ liệu thành công");
+      } catch {
+        alert("Có lỗi vui lòng thử lại!");
+      }    
+    },   
     // Đóng dialog
     closePopup(value) {
       this.isHideParent = value;
     },
     //Event click nạp dữ liệu
     async refreshEmployee() {
-      const response = await axios.get(
-        "http://localhost:60211/api/v1/Employees"
-      );
-      console.log(response.data[0]);
-      alert("Nạp dữ liệu thành công");
-      this.employees = response.data;
+      this.loadData();     
     },
-
     /**
      * Event mở dialog khi click button add
      *
@@ -246,16 +245,23 @@ export default {
      * Event khi db click
      *
      */
-    rowDoubleClick(employee) {
-      this.isHideParent = false;
-      var firstInput = document.querySelector("#txtEmployeeCode");
-      firstInput.focus();
-      for (var key in employee) {
-        if (key.toLowerCase().indexOf("date") !== -1 && employee[key] != null) {
-          employee[key] = employee[key].slice(0, 10);
-        }
+    async rowDoubleClick() {    
+
+        try {    
+        var employeeId = this.employeeId; 
+        this.isHideParent = false;        
+        axios
+        .get(`http://localhost:60211/api/v1/Employees/${employeeId}`)
+        .then((response) => {
+          console.log(response.data[0]);
+           this.employees = response.data;         
+          
+        })
+      } catch (error) {        
+        alert(error.response.data.userMsg);
       }
-      this.employee = employee;
+
+      
     },
     /**
      * Khi click chọn row
@@ -285,9 +291,9 @@ export default {
      *
      */
     formatGender(gender) {
-      var gt = parseInt(gender);
+      var gd = parseInt(gender);
       var genderName =
-        gt == 1 ? "Nữ" : gt == 0 ? "Nam" : gt == 2 ? "Khác" : "Không xác định";
+        gd == 1 ? "Nữ" : gd == 0 ? "Nam" : gd == 2 ? "Khác" : "Không xác định";
       return genderName;
     },
     /**
@@ -314,7 +320,6 @@ export default {
      */
     updateEmployee() {
       var rowSelected = document.querySelector(".row-selected");
-
       if (!rowSelected) {
         alert("Vui lòng chọn nhân viên trước khi sửa!");
       }
