@@ -1,5 +1,5 @@
 <template>
-  <div id="frmDialogDetail" class="form-dialog" :class="{ isHide: isHide }">
+  <div id="frmDialogDetail" class="form-dialog form" :class="{ isHide: isHide }">
     <div class="dialog-modal"></div>
     <div class="dialog">
       <div class="dialog-titlebar">
@@ -62,9 +62,14 @@
                 thoại hoặc email cho dễ nhớ.</label
               >
             </div>
-            <div class="row">
+           <!-- <div class="row" :class="{ 'hasError': $v.form.email.$error }"> -->
+              <!-- <div class="row" >
               <label title="Email">Email <span class="label-required"></span></label>
-              <input id="txtEmail" type="tel" class="input-default" />
+              <input id="txtEmail" type="email" class="input-default" v-model="form.email" />
+            </div> -->
+            <div class="row" >
+              <label title="Email">Email <span class="label-required"></span></label>
+              <input id="txtEmail" type="email" class="input-default" />
             </div>
             <div class="row">
               <label title="Số điện thoại di động"
@@ -180,12 +185,12 @@
 <script>
 
 import axios from "axios";
+// import { required, email } from "vuelidate/lib/validators";
 import DialogConfirm from "@/components/dialogs/DialogConfirm";
 
 export default {
   name: "EmployeeDialogDetail",
-  components: {
-    
+  components: {    
     DialogConfirm,
   },
   props: {
@@ -201,7 +206,15 @@ export default {
       default: () => {
 
       },
+      // forms: {
+      //   email: ""
+      // }
     },
+  //   validations: {
+  //   form: {      
+  //     email: { required, email }
+  //   }
+  // },
   },
   methods: {
     /**
@@ -239,7 +252,7 @@ export default {
       /**
        * Xử lý validate dữ liệu
        */
-
+        
       var inputs = document.querySelectorAll(".input-default");
       for (var i in inputs) {
         if (i == 0|| i == 3) {
@@ -248,6 +261,7 @@ export default {
           }
         }
       }
+      this.$v.form.$touch();
       /**
        * Hàm cất dữ liệu khi thêm mới và khi cập nhật
        * 
@@ -275,7 +289,7 @@ export default {
           this.isHideDialogAlert = false;
           
         }
-        // Nếu có id thì thực hiện cập nhật
+        // Thực hiện cập nhật khi có ID
       } else {
         try {
           await axios.put(

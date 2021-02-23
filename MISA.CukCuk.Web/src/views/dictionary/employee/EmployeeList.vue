@@ -123,7 +123,7 @@
             </div>
             <div class="grid__header__track"></div>
           </div>
-          <table class="grid__body">            
+          <table class="grid__body">
             <tbody>
               <tr
                 v-for="employee in employees"
@@ -187,13 +187,13 @@
 </template>
 
 <script>
-import EmployeeDialogDetail from "@/views/dictionary/employee/EmployeeDialogDetail"
+import EmployeeDialogDetail from "@/views/dictionary/employee/EmployeeDialogDetail";
 import DialogConfirm from "@/components/dialogs/DialogConfirm";
 
 import axios from "axios";
 export default {
-    name:"EmployeeList",
-  components: {    
+  name: "EmployeeList",
+  components: {
     EmployeeDialogDetail,
     DialogConfirm,
   },
@@ -212,7 +212,7 @@ export default {
     };
   },
   methods: {
-      // Lấy dữ liệu
+    // Lấy dữ liệu
     async mounted() {
       const response = await axios.get(
         "http://localhost:60211/api/v1/Employees"
@@ -225,22 +225,22 @@ export default {
     closePopup(value) {
       this.isHideParent = value;
     },
-    async refreshEmployee(){
-         const response = await axios.get("http://localhost:60211/api/v1/Employees"
-                    );
-                    console.log(response.data[0]);
-                    this.employees = response.data;
+    //Event click nạp dữ liệu
+    async refreshEmployee() {
+      const response = await axios.get(
+        "http://localhost:60211/api/v1/Employees"
+      );
+      console.log(response.data[0]);
+      alert("Nạp dữ liệu thành công");
+      this.employees = response.data;
     },
 
-        // this.$emit('loadData', response.data);
-    
     /**
      * Event mở dialog khi click button add
      *
      */
-    btnAddClick() {       
+    btnAddClick() {
       this.isHideParent = false;
-
     },
     /**
      * Event khi db click
@@ -256,10 +256,9 @@ export default {
         }
       }
       this.employee = employee;
-
     },
     /**
-     * Hàm xử lý khi click vào 1 row
+     * Khi click chọn row
      *
      */
     tableRowClick(event) {
@@ -275,6 +274,11 @@ export default {
 
       element.classList.add("row-selected");
     },
+
+    /**
+     * Format dữ liệu
+     * CreadtedBy : DMThanh (21/02/2021)
+     */
     /**
      * Format giới tính 0 nam, 1 nữ, 2 khác
      * @param {int} gender
@@ -293,13 +297,15 @@ export default {
      */
     formatDate(dob) {
       var date = new Date(dob);
-      var day = date.getDate() > 10 ? date.getDate() : "0" + date.getDate();
-      var month =
-        date.getMonth() + 1 > 10
-          ? date.getMonth() + 1
-          : "0" + (date.getMonth() + 1);
+      //day
+      var day = date.getDate().toString();
+      day = day.length > 1 ? day : "0" + day;
+      //month
+      var month = (1 + date.getMonth()).toString();
+      month = month.length > 1 ? month : "0" + month;
+      //year
       var year = date.getFullYear();
-      return `${day}/${month}/${year}`;
+      return day + "/" + month + "/" + year;
     },
 
     /**
@@ -332,7 +338,6 @@ export default {
           console.log(error);
         });
       this.isHideParent = false;
-
     },
 
     /**
@@ -357,8 +362,6 @@ export default {
       }
     },
   },
-
-
 };
 </script>
 
