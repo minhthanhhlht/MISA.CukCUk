@@ -118,9 +118,9 @@
     flex: 2 !important;
 }
 
-// .flex-3 {
-//     flex: 3 !important;
-// }
+.flex-3 {
+    flex: 3 !important;
+}
 
 .flex-4 {
     flex: 4 !important;
@@ -129,7 +129,24 @@
 .flex-5 {
     flex: 5 !important;
 }
-
+.row-1{
+    width:auto !important;
+}
+.row-2{
+    
+}
+.row-3{
+    
+}
+.row-4{
+    
+}
+.row-5{
+    min-width: 200px !important;
+}
+.row-6{
+    
+}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -141,9 +158,9 @@ tr {
 
 tr:nth-child(odd) {
     background-color: #fafafa;
-    // background-color: #c1ddf1;
+    
 }
 
 td {
-    padding-left: 12px;
+    // padding-left: 12px;
 }

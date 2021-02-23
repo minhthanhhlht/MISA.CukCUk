@@ -23,7 +23,11 @@
           @change="filterEmployee($event)"
         >
           <option value="">--Tất cả--</option>
-          <option></option>
+          <option
+            v-for="workStatus in workStatuses"
+            :key="workStatus.WorkStatusId"
+            :value="workStatus.WorkStatusId"
+            >{{ workStatus.WorkStatusName }}</option
           >
         </select>
       </div>
@@ -41,11 +45,11 @@
           <div class="m-icon m-icon--add"></div>
           <span>Thêm</span>
         </button>
-        <button class="m-btn__icon">
+        <button class="m-btn__icon " disabled>
           <div class="m-icon m-icon--duplicate"></div>
           <span>Nhân bản</span>
         </button>
-        <button class="m-btn__icon">
+        <button class="m-btn__icon" disabled>
           <div class="m-icon m-icon--view"></div>
           <span>Xem</span>
         </button>
@@ -58,7 +62,7 @@
           <span>Xóa</span>
         </button>
         <div class="toolbar-box-item"></div>
-        <button class="m-btn__icon">
+        <button class="m-btn__icon" @click="refreshEmployee()">
           <div class="m-icon m-icon--inner"></div>
           <span>Nạp</span>
         </button>
@@ -119,22 +123,22 @@
             </div>
             <div class="grid__header__track"></div>
           </div>
-          <table class="grid__body">
+          <table class="grid__body">            
             <tbody>
               <tr
                 v-for="employee in employees"
                 :key="employee.employeeId"
                 @click="tableRowClick"
                 @dblclick="rowDoubleClick(employee)"
-                :data-id="employee.employeeId"
-                :data-code="employee.employeeCode"
+                :employee-id="employee.employeeId"
+                :employee-code="employee.employeeCode"
               >
-                <td>{{ employee.employeeCode }}</td>
-                <td class="flex-2">{{ employee.fullName }}</td>
-                <td>{{ employee.phoneNumber }}</td>
-                <td>{{ formatGender(employee.gender) }}</td>
-                <td>{{ formatDate(employee.dateOfBirth) }}</td>
-                <td>{{ employee.workStatus }}</td>
+                <td class="row-1">{{ employee.employeeCode }}</td>
+                <td class="flex-2 row-2">{{ employee.fullName }}</td>
+                <td class="row-3">{{ employee.phoneNumber }}</td>
+                <td class="row-4">{{ formatGender(employee.gender) }}</td>
+                <td class="row-5">{{ formatDate(employee.dateOfBirth) }}</td>
+                <td class="row-6">{{ employee.workStatus }}</td>
               </tr>
             </tbody>
           </table>
@@ -183,13 +187,13 @@
 </template>
 
 <script>
-import EmployeeDialogDetail from "./EmployeeDialogDetail";
+
 import DialogConfirm from "@/components/dialogs/DialogConfirm";
 
 import axios from "axios";
 export default {
-  components: {
-    EmployeeDialogDetail,
+    name:"EmployeeList",
+  components: {    
     DialogConfirm,
   },
   data() {
@@ -201,41 +205,41 @@ export default {
       employee: {
         Email: "",
       },
-      employeeId: "",      
+      employeeId: "",
+      workStatuses: [],
       newCode: "",
     };
   },
   methods: {
-   
+      // Lấy dữ liệu
+    async mounted() {
+      const response = await axios.get(
+        "http://localhost:60211/api/v1/Employees"
+      );
+      console.log(response.data[0]);
+      this.employees = response.data;
+    },
+
     // Đóng dialog
     closePopup(value) {
       this.isHideParent = value;
     },
+    async refreshEmployee(){
+         const response = await axios.get("http://localhost:60211/api/v1/Employees"
+                    );
+                    console.log(response.data[0]);
+                    this.employees = response.data;
+    },
+
+        // this.$emit('loadData', response.data);
+    
     /**
      * Event mở dialog khi click button add
      *
      */
-    btnAddClick() {
-      axios
-        .get("http://localhost:60211/api/v1/Employees/max-code")
-        .then((response) => {
-          var code = response.data.EmployeeCode;
-          var codeLength = code.length;
-          var num = (parseInt(code.split("NV")[1]) + 1).toString();
-          var newCode = "NV";
-          for (var i = 0; i < codeLength - num.length - 2; i++) {
-            newCode = newCode + "0";
-          }
-          newCode = newCode + num;
-          this.employee = {
-            EmployeeCode: newCode,
-          };
-        })
-        .catch(function(error) {
-          console.log(error);
-        });
+    btnAddClick() {       
       this.isHideParent = false;
-      this.focusInput();
+
     },
     /**
      * Event khi db click
@@ -251,10 +255,10 @@ export default {
         }
       }
       this.employee = employee;
-      this.focusInput();
+
     },
     /**
-     * Xử lý khi click chọn row
+     * Hàm xử lý khi click vào 1 row
      *
      */
     tableRowClick(event) {
@@ -271,7 +275,7 @@ export default {
       element.classList.add("row-selected");
     },
     /**
-     *format lại giới tính 0 nam, 1 nữ, 2 khác
+     * Format giới tính 0 nam, 1 nữ, 2 khác
      * @param {int} gender
      *
      */
@@ -282,12 +286,12 @@ export default {
       return genderName;
     },
     /**
-     *format ngày sinh
+     *Format ngày sinh
      * @param {string} d
      *
      */
-    formatDate(d) {
-      var date = new Date(d);
+    formatDate(dob) {
+      var date = new Date(dob);
       var day = date.getDate() > 10 ? date.getDate() : "0" + date.getDate();
       var month =
         date.getMonth() + 1 > 10
@@ -297,14 +301,6 @@ export default {
       return `${day}/${month}/${year}`;
     },
 
-    //  Lấy dữ liệu
-    async created() {
-      const response = await axios.get(
-        "http://api.manhnv.net/api/employees"
-      );
-      console.log(response.data[0]);
-      this.employees = response.data;
-    },
     /**
      * Sửa thông tin nhân viên
      *
@@ -315,10 +311,11 @@ export default {
       if (!rowSelected) {
         alert("Vui lòng chọn nhân viên trước khi sửa!");
       }
-      var employeeId = rowSelected.getAttribute("data-id");
+      var employeeId = rowSelected.getAttribute("employee-id");
       axios
         .get(`http://localhost:60211/api/v1/Employees/${employeeId}`)
         .then((response) => {
+          console.log(response.data[0]);
           var employee = response.data;
           for (var key in employee) {
             if (
@@ -334,7 +331,7 @@ export default {
           console.log(error);
         });
       this.isHideParent = false;
-      this.focusInput();
+
     },
 
     /**
@@ -347,8 +344,8 @@ export default {
         alert("Vui lòng chọn nhân viên để xóa!");
         return;
       }
-      var employeeId = rowSelected.getAttribute("data-id");
-      var employeeCode = rowSelected.getAttribute("data-code");
+      var employeeId = rowSelected.getAttribute("employee-id");
+      var employeeCode = rowSelected.getAttribute("employee-code");
       try {
         this.isHideDialogConfirm = false;
         this.employeeId = employeeId;

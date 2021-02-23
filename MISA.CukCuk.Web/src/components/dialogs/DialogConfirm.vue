@@ -72,7 +72,7 @@ export default {
             }
             this.$emit('closeDialogConfirm', true)
             this.$emit('closeDialog', true)
-            // Xử lý slect row đầu tiên
+            // 
             setTimeout(() => {
                 var tbody = document.querySelector('tbody')
                 tbody.firstChild.classList.add('row-selected')

@@ -1,11 +1,18 @@
 <template>
     <div class="content">
-        <router-view />
+        <EmployeeList />
     </div>
 </template>
 
 <script>
-export default {}
+import EmployeeList from '@/views/dictionary/employee/EmployeeList'
+export default {
+    name: "TheContent",
+    components: {
+        EmployeeList
+    }
+
+}
 </script>
 
 <style></style>

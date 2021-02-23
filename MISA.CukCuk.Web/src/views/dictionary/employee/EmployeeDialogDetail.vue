@@ -10,24 +10,19 @@
       </div>
       <!-- Start Toolbar -->
       <div class="toolbar">
-        <button
-          id="btnSave"
-          class="m-btn__icon"
-          @click="saveEmployee"
-          tabindex="12"
-        >
+        <button id="btnSave" class="m-btn__icon"  @click="saveEmployee" tabindex="12"        >
           <div class="m-icon m-icon--add"></div>
           <span>Thêm</span>
-        </button>
-        <button class="m-btn__icon" @click="saveEmployee">
+        </button>       
+         <button class="m-btn__icon" @click="saveEmployee">
           <div class="m-icon m-icon--update"></div>
           <span>Sửa</span>
-        </button>
+        </button> 
         <button class="m-btn__icon">
           <div class="m-icon m-icon--save"></div>
           <span>Cất</span>
         </button>
-
+       
         <button class="m-btn__icon" @click="deleteEmployee">
           <div class="m-icon m-icon--delete"></div>
           <span>Xóa</span>
@@ -41,7 +36,7 @@
           <div class="m-icon m-icon--help"></div>
           <span>Giúp</span>
         </button>
-        <button class="m-btn__icon">
+         <button class="m-btn__icon" @click="btnCancelClick">
           <div class="m-icon m-icon--close"></div>
           <span>Đóng</span>
         </button>
@@ -56,9 +51,9 @@
         <div class="group-general-info">
           <div class="group-left">
             <div class="row">
-              <label>Mã nhân viên <n class="label-required">(*)</n></label>
+              <label>Mã nhân viên <span class="label-required">(*)</span></label>
               <input
-                id="txtCustomerCode"
+                id="txtEmployeeCode"
                 type="text"
                 class="input-default input-default-1"
               />
@@ -68,24 +63,27 @@
               >
             </div>
             <div class="row">
-              <label title="Email">Email <n class="label-required"></n></label>
+              <label title="Email">Email <span class="label-required"></span></label>
               <input id="txtEmail" type="tel" class="input-default" />
             </div>
             <div class="row">
               <label title="Số điện thoại di động"
-                >Số điện thoại <n class="label-required"></n
+                >Số điện thoại <span class="label-required"></span
               ></label>
               <input id="txtMobile" type="tel" class="input-default" />
             </div>
             <!-- <pre>{{ $v }}</pre> -->
             <div class="row">
-              <label>Họ và tên <n class="label-required">(*)</n></label>
-              <input id="txtCustomerCode" type="text" class="input-default" />
+              <label>Họ và tên <span class="label-required">(*)</span></label>
+              <input type="text" class="input-default" />
               <!-- <p v-if="$v.name.$error">Vui lòng không để trông</p> -->
             </div>
             <div class="row">
               <label class="label-col-2 flex-2">Giới tính</label>
-              <select class="option-flex-auto input-default">
+              <select
+                class="option-flex-auto input-default"
+                
+              >
                 <option>Nam</option>
                 <option>Nữ</option>
               </select>
@@ -94,7 +92,7 @@
                 id="dtBirthday"
                 type="date"
                 class="input-default"
-                style="margin-left: -3px; width: 224px"
+                style="margin-left: -3px;width: 224px;"
               />
             </div>
 
@@ -106,6 +104,7 @@
                 id="txtIdentityNumber"
                 type="text"
                 class="input-default flex-1"
+                
               />
               <label class="label-col-2 flex-3">Ngày cấp</label>
               <input id="dtBirthday" type="date" class="input-default flex-1" />
@@ -130,14 +129,14 @@
           </div>
         </div>
 
-        <div class="row" style="margin-left: -3px">
+       <div class="row" style="margin-left: -3px">
           <label>Nơi cấp CMND</label>
           <input id="dtBirthday" type="text" class="input-default flex-1" />
         </div>
 
         <div class="work-info-group">
           <div class="row">
-            <label>Phân quyền <n class="label-required">(*)</n></label>
+            <label >Phân quyền <span class="label-required">(*)</span></label>
             <div class="misa-checkbox">
               <input type="checkbox" />
               <label class="label-col-3">Vai trò quản trị hệ thống</label>
@@ -148,42 +147,45 @@
             </div>
           </div>
           <div class="row">
-            <label>Trạng thái làm việc <n class="label-required">(*)</n></label>
+            <label>Trạng thái làm việc <span class="label-required">(*)</span></label>
             <select class="option-flex-auto input-default">
               <option>Chính thức</option>
               <option>Đang thử việc</option>
             </select>
             <div class="row-col-1">
-              <input type="checkbox" />
-              <label class="label-col-3 label-row-1"
-                >Cho phép làm việc với phần mềm CUKCUK</label
-              >
+            <input type="checkbox" />
+            <label class="label-col-3 label-row-1"
+              >Cho phép làm việc với phần mềm CUKCUK</label
+            >
             </div>
           </div>
-        </div>
+        </div>        
       </div>
-      <DialogConfirm
-        ref="dialogConfirm"
-        :employeeId="employeeId"
-        :isHide="isHideDialogConfirm"
-        :message="message"
-        @closeDialogConfirm="isHideDialogConfirm = $event"
-        @loadData="loadData"
-        @closeDialog="closeDialog"
-      />
 
       <!-- End Body -->
     </div>
+    
+    <DialogConfirm
+      ref="dialogConfirm"
+      :employeeId="employeeId"
+      :isHide="isHideDialogConfirm"
+      :message="message"
+      @closeDialogConfirm="isHideDialogConfirm = $event"
+      @loadData="loadData"
+      @closeDialog="closeDialog"
+    />
   </div>
 </template>
 
 <script>
+
 import axios from "axios";
 import DialogConfirm from "@/components/dialogs/DialogConfirm";
 
 export default {
   name: "EmployeeDialogDetail",
   components: {
+    
     DialogConfirm,
   },
   props: {
@@ -196,7 +198,9 @@ export default {
     },
     data: {
       type: Object,
-      default: () => {},
+      default: () => {
+
+      },
     },
   },
   methods: {
@@ -208,7 +212,7 @@ export default {
       this.$emit("reloadData", data);
     },
     /**
-     * gỡ bỏ validate
+     * Gỡ bỏ validate
      */
     removeValidate() {
       var inputs = document.querySelectorAll(".input-default");
@@ -226,10 +230,10 @@ export default {
       this.$emit("closePopup", true);
       this.removeValidate();
     },
-
+  
     /**
-     * hêm mới nhân viên 
-     *
+     * Hàm thêm mới nhân viên m
+     * 
      */
     async saveEmployee() {
       /**
@@ -238,39 +242,38 @@ export default {
 
       var inputs = document.querySelectorAll(".input-default");
       for (var i in inputs) {
-        if (i == 0 || i == 3) {
+        if (i == 0|| i == 3) {
           if (inputs[i].value.trim() == "") {
             inputs[i].classList.add("notValid");
           }
         }
       }
       /**
-       * Cất dữ liệu khi thêm mới và khi cập nhật
-       *
+       * Hàm cất dữ liệu khi thêm mới và khi cập nhật
+       * 
        */
       var employeeId = this.employee.EmployeeId;
-      // Nếu không có id thì thêm mới id
+      // Nếu không có id thì thêm mới
       if (!employeeId) {
-        var employeeCodeValue = document.getElementById("txtEmployeeCode")
-          .value;
+        var employeeCodeValue = document.getElementById("txtEmployeeCode").value;
         this.employee["EmployeeCode"] = employeeCodeValue;
         try {
           await axios.post(
-            "http://localhost:60211/api/v1/Employees",
+            `http://localhost:60211/api/v1/Employees/${employeeId}`,
             this.employee
           );
-
           axios
             .get("http://localhost:60211/api/v1/Employees")
             .then((res) => {
               this.$emit("reloadData", res.data);
               this.$emit("closePopup", true);
+              alert("Thêm thành công");
             })
             .catch((err) => alert(err.response.data.UserMsg));
         } catch (error) {
           this.text = error.response.data.UserMsg;
           this.isHideDialogAlert = false;
-          this.focusButton();
+          
         }
         // Nếu có id thì thực hiện cập nhật
       } else {
@@ -290,9 +293,9 @@ export default {
       }
     },
 
-    /**
+      /**
      * Xóa nhân viên
-     *
+     * 
      */
     async deleteEmployee() {
       var employeeId = this.employee.EmployeeId;
@@ -325,9 +328,11 @@ export default {
     };
   },
   async mounted() {
-    var workStatuses = await axios.get("");
+    var workStatuses = await axios.get(
+      ""
+    );
     this.workStatuses = workStatuses.data;
-    var rules = await axios.get("http://localhost:60211/api/v1/rules");
+    var rules = await axios.get("");
     this.rules = rules.data;
 
     /**
@@ -338,7 +343,7 @@ export default {
 
     for (var i in inputs) {
       if (i == 0 || i == 1 || i == 2 || i == 3 || i == 6 || i == 9) {
-        inputs[i].onblur = function (e) {
+        inputs[i].onblur = function(e) {
           if (e.target.value.trim() == "") {
             e.target.classList.add("notValid");
           } else {
