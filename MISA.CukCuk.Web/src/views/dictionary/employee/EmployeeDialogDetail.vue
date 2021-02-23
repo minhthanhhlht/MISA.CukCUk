@@ -14,7 +14,7 @@
           <div class="m-icon m-icon--add"></div>
           <span>Thêm</span>
         </button>       
-         <button class="m-btn__icon" @click="saveEmployee">
+         <button class="m-btn__icon" @click="editEmployee">
           <div class="m-icon m-icon--update"></div>
           <span>Sửa</span>
         </button> 
@@ -48,14 +48,16 @@
         <div class="toolbar-group">
           <div class="title-group">Thông tin chung</div>
         </div>
+        <!-- Dialog Body -->
         <div class="group-general-info">
           <div class="group-left">
             <div class="row">
               <label>Mã nhân viên <span class="label-required">(*)</span></label>
-              <input
+              <input ref="employeecode"
                 id="txtEmployeeCode"
                 type="text"
                 class="input-default input-default-1"
+                v-model="employee.employeeCode"
               />
               <label class="label-col-4"
                 >Dùng làm tên đăng nhập vào hệ thống, có thể sử dụng số điện
@@ -69,25 +71,27 @@
             </div> -->
             <div class="row" >
               <label title="Email">Email <span class="label-required"></span></label>
-              <input id="txtEmail" type="email" class="input-default" />
+              <input id="txtEmail" type="email" class="input-default" 
+              v-model="employee.email"/>
             </div>
             <div class="row">
               <label title="Số điện thoại di động"
                 >Số điện thoại <span class="label-required"></span
               ></label>
-              <input id="txtMobile" type="tel" class="input-default" />
+              <input id="txtMobile" type="tel" class="input-default" 
+              v-model="employee.phoneNumber"/>
             </div>
             <!-- <pre>{{ $v }}</pre> -->
             <div class="row">
               <label>Họ và tên <span class="label-required">(*)</span></label>
-              <input type="text" class="input-default" />
-              <!-- <p v-if="$v.name.$error">Vui lòng không để trông</p> -->
+              <input type="text" class="input-default" 
+              v-model="employee.fullName"/>
+              <p v-if="$v.name.$error">Vui lòng không để trống ô này</p>
             </div>
             <div class="row">
               <label class="label-col-2 flex-2">Giới tính</label>
               <select
-                class="option-flex-auto input-default"
-                
+                class="option-flex-auto input-default"                
               >
                 <option>Nam</option>
                 <option>Nữ</option>
@@ -98,6 +102,7 @@
                 type="date"
                 class="input-default"
                 style="margin-left: -3px;width: 224px;"
+                v-model="employee.dateOfBirth"
               />
             </div>
 
@@ -109,10 +114,12 @@
                 id="txtIdentityNumber"
                 type="text"
                 class="input-default flex-1"
+                v-model="employee.identityNumber"
                 
               />
               <label class="label-col-2 flex-3">Ngày cấp</label>
-              <input id="dtBirthday" type="date" class="input-default flex-1" />
+              <input id="dtBirthday" type="date" class="input-default flex-1" 
+              v-model="employee.identityDate"/>
             </div>
           </div>
           <div class="group-right">
@@ -136,7 +143,8 @@
 
        <div class="row" style="margin-left: -3px">
           <label>Nơi cấp CMND</label>
-          <input id="dtBirthday" type="text" class="input-default flex-1" />
+          <input id="dtBirthday" type="text" class="input-default flex-1"
+          v-model="employee.identityPlace" />
         </div>
 
         <div class="work-info-group">
@@ -193,6 +201,33 @@ export default {
   components: {    
     DialogConfirm,
   },
+  data(){
+    return{
+      employee: {        
+        employeeCode: "",
+        fullName: "",
+        dateOfBirth: "",
+        email: "",
+        phoneNumber: "",
+        gender: 1,
+        // positionId: "3541ff76-58f0-6d1a-e836-63d5d5eff719",
+        // departmentId: "34bd2cef-5026-567c-3b71-153b37881afe",        
+        identityNumber: "",
+        identityDate: "",
+        identityPlace: "",             
+        workStatus: "",
+        
+      },
+      workStatuses: [],   
+      employeeId: '',   
+      message: "",
+      rules: [],
+      isHideDialogAlert: true,
+      isHideDialogConfirm: true,
+      text: [],
+    }
+
+  },
   props: {
     isHide: {
       type: Boolean,
@@ -201,15 +236,16 @@ export default {
     newCode: {
       type: String,
     },
-    data: {
-      type: Object,
-      default: () => {
+    // data: {
+    //   type: Object,
+    //   default: () => {
 
-      },
+    //   },
       // forms: {
       //   email: ""
       // }
-    },
+    // },
+
   //   validations: {
   //   form: {      
   //     email: { required, email }
@@ -260,28 +296,25 @@ export default {
             inputs[i].classList.add("notValid");
           }
         }
-      }
-      this.$v.form.$touch();
+      }      
       /**
-       * Hàm cất dữ liệu khi thêm mới và khi cập nhật
+       * Thực hiện lưu dữ liệu khi thêm mới 
        * 
        */
+      // Lấy ID 
       var employeeId = this.employee.EmployeeId;
       // Nếu không có id thì thêm mới
       if (!employeeId) {
         var employeeCodeValue = document.getElementById("txtEmployeeCode").value;
-        this.employee["EmployeeCode"] = employeeCodeValue;
+        this.employee["employeeCode"] = employeeCodeValue;
         try {
-          await axios.post(
-            "http://localhost:60211/api/v1/Employees/",
-            this.employee
-          );
-          axios
-            .get("http://localhost:60211/api/v1/Employees")
+          axios 
+          .post("http://localhost:60211/api/v1/Employees/", this.employee)                
             .then((res) => {
               this.$emit("reloadData", res.data);
-              this.$emit("closePopup", true);
               alert("Thêm thành công");
+              this.$emit("closePopup", true);
+              
             })
             .catch((err) => alert(err.response.data.UserMsg));
         } catch (error) {
@@ -290,21 +323,23 @@ export default {
           
         }
         // Thực hiện cập nhật khi có ID
-      } else {
-        try {
-          await axios.put(
-            `http://localhost:60211/api/v1/Employees/${employeeId}`,
-            this.employee
-          );
-          axios.get("http://localhost:60211/api/v1/Employees").then((res) => {
+      } 
+    },
+    /**
+     * Event sửa dữ liệu
+     */
+    editEmployee(){
+      //Lấy ID
+      var employeeId = this.employee.EmployeeId;
+         try {
+          axios .put( `http://localhost:60211/api/v1/Employees/${employeeId}`, this.employee )          
+          .then((res) => {
             alert("Cập nhật thông tin thành công!");
-
             this.$emit("reloadData", res.data);
           });
         } catch (error) {
           console.log(error);
         }
-      }
     },
 
       /**
@@ -330,17 +365,7 @@ export default {
       this.$emit("closePopup", value);
     },
   },
-  data() {
-    return {
-      workStatuses: [],
-      employeeId: "",
-      message: "",
-      rules: [],
-      isHideDialogAlert: true,
-      isHideDialogConfirm: true,
-      text: [],
-    };
-  },
+  
   async mounted() {
     var workStatuses = await axios.get(
       ""
@@ -368,9 +393,9 @@ export default {
     }
   },
   computed: {
-    employee() {
-      return this.data;
-    },
+    // employee() {
+    //   return this.data;
+    // },
   },
 };
 </script>

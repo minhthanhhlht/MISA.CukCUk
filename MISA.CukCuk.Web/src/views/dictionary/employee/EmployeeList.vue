@@ -199,13 +199,13 @@ export default {
   },
   data() {
     return {
+      employee: {
+        
+      },
       isHideParent: true,
       isHideDialogConfirm: true,
       message: "",
       employees: [],
-      employee: {
-        Email: "",
-      },
       employeeId: "",
       workStatuses: [],
       newCode: "",
@@ -351,6 +351,7 @@ export default {
         return;
       }
       var employeeId = rowSelected.getAttribute("employee-id");
+      //Lấy mã nhân viên
       var employeeCode = rowSelected.getAttribute("employee-code");
       try {
         this.isHideDialogConfirm = false;
