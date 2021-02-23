@@ -259,7 +259,7 @@ export default {
         this.employee["EmployeeCode"] = employeeCodeValue;
         try {
           await axios.post(
-            `http://localhost:60211/api/v1/Employees/${employeeId}`,
+            "http://localhost:60211/api/v1/Employees/",
             this.employee
           );
           axios
