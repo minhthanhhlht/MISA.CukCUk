@@ -29,7 +29,7 @@ namespace MISA.Infrastructure
         public BaseRepository(IConfiguration configuration)
         {
             _configuration = configuration;
-            _connectionString = _configuration.GetConnectionString("MISADefaultConnectString");
+            _connectionString = _configuration.GetConnectionString("MISACukCukConnectString");
             _dbConnection = new MySqlConnection(_connectionString);
             _tableName = typeof(TEntity).Name;
         }
